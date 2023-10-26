@@ -2,12 +2,14 @@
 
 ## Overview
 
-TwinScape is a state-of-the-art platform designed to create, visualise, and analyse a digital twin of an organisation. The nuanced use of metadata contracts allows for the design of components that represent a diverse range of organisational assets, processes, and systems. The platform's interactive canvas interface offers users a streamlined, low-code/no-code experience, simplifying the detailed construction and validation of organisational components. Further enhanced by the precision of Large Language Models (LLMs) and Retrieval Augmented Generation (RAGs), TwinScape guarantees a dependable and current reflection of the digital twin.
+TwinScape is a state-of-the-art platform designed to create, visualise, and analyse a digital twin of an organisation. The nuanced use of metadata contracts allows for designing components representing diverse organisational assets, processes, and systems. The platform's interactive canvas interface offers users a streamlined, low-code/no-code experience, simplifying the detailed construction and validation of organisational components. Further enhanced by the precision of Large Language Models (LLMs) and Retrieval Augmented Generation (RAGs), TwinScape guarantees the digital twin's dependable and current reflection.
+
+In the **Architecture** repo, there is a deeper dive into the blueprint and services employed to realise this practically.
 
 ## Core Concepts
 
 ### Digital Twin
-A comprehensive digital representation of an organisation's tangible and intangible facets, encompassing assets, processes, systems, and more. This virtual counterpart serves as a reflection of the real-world organisation, paving the way for advanced simulations, in-depth analyses, and future predictions. Think of it as a meticulously crafted digital map of the organisation.
+A comprehensive digital representation of an organisation's tangible and intangible facets, encompassing assets, processes, systems, and more. This virtual counterpart reflects the real-world organisation, paving the way for advanced simulations, in-depth analyses, and future predictions. Think of it as a meticulously crafted digital map of the organisation.
 
 ### Metadata Contracts
 A holistic approach to delineate components within the digital twin. Metadata contracts meticulously describe the expected behaviour, inputs, outputs, semantics, infrastructure, data, and specific implementation attributes that constitute the digital twin. Adherence to these contracts is paramount in assuring the digital twin's accuracy and reliability.
