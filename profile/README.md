@@ -1,10 +1,70 @@
 # TwinScape: Digital Twin for Organisations
 
 ## Overview
+In the rapidly evolving domain of digital representation, the allure of Retrieval Augmented Generation (RAG)
+applications are undeniable. Many are venturing into creating sophisticated interfaces, like chatbots, to interact with
+vast repositories of company documentation. The prevailing trend is to source knowledge from unstructured text, chunking
+and embedding it for easy retrieval. However, not all organisational data is unstructured.
 
-TwinScape is a state-of-the-art platform designed to create, visualise, and analyse a digital twin of an organisation. The nuanced use of metadata contracts allows for designing components representing diverse organisational assets, processes, and systems. The platform's interactive canvas interface offers users a streamlined, low-code/no-code experience, simplifying the detailed construction and validation of organisational components. Further enhanced by the precision of Large Language Models (LLMs) and Retrieval Augmented Generation (RAGs), TwinScape guarantees the digital twin's dependable and current reflection.
+Imagine aiming to develop a digital interface for TwinScape that can answer intricate queries about an organisation's
+entire digital twin, which includes assets, processes, ongoing tasks, and more. While tasks might be defined in
+unstructured text, how would one prepare and represent the vast interconnected web of organisational assets and
+processes? A daily snapshot transformed into text might seem like a solution, but it could be more efficient. This is where
+knowledge graphs come into play, offering a unified database that seamlessly integrates structured and
+unstructured information.
 
-In the **Architecture** repo, there is a deeper dive into the blueprint and services employed to realise this practically.
+Knowledge graphs employ nodes and relationships to depict data. Nodes symbolise entities or concepts like
+departments, assets, processes, or even employees. In the context of TwinScape's digital twin, nodes could represent
+various organisational facets, from tangible assets to intangible processes. Relationships, conversely, define
+the intricate connections between these entities, such as dependencies between processes or hierarchical structures
+within departments. Both nodes and relationships can store data as key-value pairs, offering a rich, interconnected web
+of organisational knowledge.
+
+#### The Digital Twin: A Holistic View of Organisational Ecosystems
+
+Transitioning from managing isolated components to overseeing an entire organisational system through a Digital Twin is
+a monumental stride in IT. This shift necessitates the amalgamation of various component artefacts, including contracts,
+code, data, and infrastructure. While this integration offers a panoramic view of the organisational ecosystem, it also
+introduces complexities that demand innovative solutions.
+
+In TwinScape, the Digital Twin is visualised as a vast network of interconnected components, each brimming with its
+unique set of artefacts. This network not only provides a comprehensive view of the organisational landscape but also
+bridges the gaps between implementation, data, and infrastructure layers. The subsequent sections will delve into the
+challenges posed by this intricate integration and propose solutions to ensure seamless operation.
+
+#### Managing the Digital Twin: Ensuring Relevance in a Dynamic Landscape
+
+The Digital Twin, a digital representation of an organisation's landscape, has revolutionised the way we visualise and
+manage organisational ecosystems. By offering a comprehensive, interconnected view of various components, from contracts
+and code to data and infrastructure, it provides invaluable insights into real-time operations and potential future
+scenarios. However, the dynamism inherent in organisational landscapes poses a significant challenge: ensuring that the
+Digital Twin remains up-to-date and relevant.
+
+#### The Challenge of Staying Current
+
+Organisations are in a constant state of flux. Processes evolve, systems get updated, and new technologies are
+integrated. This continuous change means that the information within the Digital Twin can quickly become outdated. An
+outdated Digital Twin not only loses its efficacy but can also lead to misinformed decisions, potentially having
+cascading effects on the entire organisation.
+
+#### RAG: Bridging the Gap Between Static Models and Dynamic Information
+
+Enter Retrieval Augmented Generation (RAG). Traditional Large Language Models (LLMs), while powerful, operate on static
+knowledge. They're trained on vast amounts of data but need to update themselves with new information
+post-training inherently. RAG addresses this limitation by combining the strengths of LLMs with external retrieval mechanisms, such
+as knowledge graphs.
+
+Knowledge graphs are structured representations of data, capturing relationships between different entities. They can be
+continuously updated with the latest information, ensuring they reflect the current state of knowledge. When integrated
+with RAG, these knowledge graphs provide LLMs with real-time or updated context, effectively bridging the gap between
+the static knowledge of the model and the dynamic nature of the information.
+
+In the context of the Digital Twin, RAG can be seen as a mechanism that ensures the twin remains current. By pulling in
+the latest information from knowledge graphs, RAG ensures that the Digital Twin's responses, analyses, and insights are
+based on the most recent and relevant data. This dynamic integration ensures that the Digital Twin remains a reliable
+tool, capable of guiding decisions based on the current state of the organisation.
+
+
 
 ## Core Concepts
 
