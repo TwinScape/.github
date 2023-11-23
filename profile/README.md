@@ -1,11 +1,6 @@
 # TwinScape: Digital Twin for Organisations
 
 ## Overview
-In the rapidly evolving domain of digital representation, the allure of Retrieval Augmented Generation (RAG)
-applications are undeniable. Many are venturing into creating sophisticated interfaces, like chatbots, to interact with
-vast repositories of company documentation. The prevailing trend is to source knowledge from unstructured text, chunking
-and embedding it for easy retrieval. However, not all organisational data is unstructured.
-
 Imagine aiming to develop a digital interface for TwinScape that can answer intricate queries about an organisation's
 entire digital twin, which includes assets, processes, ongoing tasks, and more. While tasks might be defined in
 unstructured text, how would one prepare and represent the vast interconnected web of organisational assets and
